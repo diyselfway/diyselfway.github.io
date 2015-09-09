@@ -1,8 +1,10 @@
-#Hux Blog
+#X home
 
-###[View Live Hux Blog &rarr;](http://huxpro.github.io)
+###此博客模板来源于[huxpro](huxpro.github.io)，感谢作者的无私分享！
 
-![](http://pic3.zhimg.com/4b3c678f7c23067a1975bbc20f6711ea_b.jpg)
+###[View Live X home &rarr;](http://diyselfway.github.io)
+
+![](http://7xlo4n.com1.z0.glb.clouddn.com/4b3c678f7c23067a1975bbc20f6711ea_b.jpg)
 
 
 ## Feature
