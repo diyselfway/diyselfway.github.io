@@ -1,6 +1,6 @@
 #X home
 
-###此博客模板来源于[huxpro](huxpro.github.io)，感谢作者的无私分享！
+###此博客模板来源于[huxpro](http://huangxuan.me/)，感谢作者的无私分享！
 
 ###[View Live X home &rarr;](http://diyselfway.github.io)
 
