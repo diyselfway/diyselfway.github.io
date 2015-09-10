@@ -22,11 +22,11 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # Markdown settings
 # redcarpet can auto highlight code, but the lack of header-id make the catalog impossible, so I switch to kramdown
-markdown: kramdown
+# markdown: kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 # use Github Flavored Markdown !important
-kramdown:
-  input: GFM
+# kramdown:
+  # input: GFM
 
 # Duoshuo settings
 # Please set your own DuoShuo account.
