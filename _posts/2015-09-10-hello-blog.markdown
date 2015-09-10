@@ -2,7 +2,7 @@
 layout:     post
 title:      "Hello Blog"
 subtitle:   " \"Hello World, Hello Tomorrow\""
-date:       2015-09-10 00:15:00
+date:       2015-09-10 00:00:00
 author:     "Julian"
 header-img: "img/post-bg-hello.jpg"
 tags:
@@ -10,12 +10,14 @@ tags:
     - Blog
 ---
 
->Let's begin !
+> Let's begin !
 
 测试Markdown
 
 # 一级标题
+
 ## 二级标题
+
 ### 三级标题
 
 1. 有序列表
@@ -29,7 +31,7 @@ tags:
 > 这里是引用
 
 #### 插入链接
-[百度](www.baidu.com)
+[百度](http://www.baidu.com)
 
 #### 插入图片
 ![markdown](http://ww2.sinaimg.cn/large/6aee7dbbgw1efffa67voyj20ix0ctq3n.jpg)
@@ -39,10 +41,11 @@ tags:
 
 #### 表格
 表头|项目一|项目二    
------|:-------:|-------:
-属性|数据   |123
+---|:---:|---:
+属性|数据|123
 
 ####代码
+
 ```java
 public void main(){
     Log.d(TAG,"hello");
