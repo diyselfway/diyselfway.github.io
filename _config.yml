@@ -7,12 +7,12 @@ baseurl: ""
 url: "http://diyselfway.github.io"
 
 # SNS settings
-RSS: false
-#twitter_username: diyselfway
-github_username:  diyselfway
+RSS: true
+weibo_username:     diyselfway
+zhihu_username:     diyselfway
+github_username:    diyselfway
+#twitter_username:  diyselfway
 #facebook_username:  diyselfway
-weibo_username: diyselfway
-zhihu_username: diyselfway
 
 # Build settings
 highlighter: pygments
@@ -22,20 +22,37 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # Markdown settings
 # redcarpet can auto highlight code, but the lack of header-id make the catalog impossible, so I switch to kramdown
-markdown: kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 # use Github Flavored Markdown !important
+markdown: kramdown
 kramdown:
-  input: GFM
+  input: GFM 
 
 # Duoshuo settings
-# Please set your own DuoShuo account.
-useDuoshuo: true    # Comment and Share
+# please set your own DuoShuo account in `post.html` and `about.html`
+useDuoshuo: true    # use both Comment and Share
 useShare: true      # use Comment only. seeing the Share component is depend on Comment so we can NOT use share only.
 
-
 # Todo: Analysis settings
-# Please set your own analysis account
+# Please set your own analysis account in `head.html`(Baidu) and `default.html`(QQ)
 useBaiduAnalysis: false
 useTencentAnalysis: false
 useGoogleAnalysis: false
+
+
+# Sidebar settings
+# Use Sidebar
+sidebar: true
+sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
+
+# Friends
+friends: [
+    {
+        title: "天镶的博客",
+        href: "http://lingyu.wang/"
+    },
+    {
+        title: "Luke的自留地",
+        href: "http://hmqk1995.github.io"
+    }
+]
