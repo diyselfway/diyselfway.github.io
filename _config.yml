@@ -22,7 +22,7 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # Markdown settings
 # redcarpet can auto highlight code, but the lack of header-id make the catalog impossible, so I switch to kramdown
-# markdown: kramdown
+markdown: kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 # use Github Flavored Markdown !important
 # kramdown:
@@ -36,6 +36,6 @@ useShare: true      # use Comment only. seeing the Share component is depend on 
 
 # Todo: Analysis settings
 # Please set your own analysis account
-useBaiduAnalysis: true
-useTencentAnalysis: true
-useGoogleAnalysis: true
+useBaiduAnalysis: false
+useTencentAnalysis: false
+useGoogleAnalysis: false
