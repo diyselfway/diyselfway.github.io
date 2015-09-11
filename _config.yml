@@ -25,8 +25,8 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 markdown: kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 # use Github Flavored Markdown !important
-# kramdown:
-  # input: GFM
+kramdown:
+  input: GFM
 
 # Duoshuo settings
 # Please set your own DuoShuo account.
