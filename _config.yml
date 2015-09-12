@@ -43,10 +43,14 @@ useGoogleAnalysis: false
 # Sidebar settings
 # Use Sidebar
 sidebar: true
-sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
+sidebar-avatar: /img/avatar-julian.jpg     # use absolute URL.
 
 # Friends
 friends: [
+    {
+        title: "Hux Blog",
+        href: "http://huangxuan.me/"
+    },
     {
         title: "天镶的博客",
         href: "http://lingyu.wang/"
