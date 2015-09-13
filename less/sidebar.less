@@ -8,7 +8,13 @@
         padding-right: 5%;
     }
 }
+@media (min-width: 768px){
+    .post-container{
+        padding-right: 5%;
+    }
+}
 
+// Container of Sidebar, also Friends
 .sidebar-container{
     color: @gray-l;
     font-size: 14px;
@@ -16,22 +22,20 @@
         color: @gray;
         padding-bottom: 1em;
         a{
-            color: @gray;
-            &:hover{
-                color: @brand-primary;
-                text-decoration: none;
-            }
+            color: @gray !important;
+            text-decoration: none;
         }
     }
-    a, li a{
-        color: @gray-l;
+    a{
+        color: @gray-l !important;
+        &:hover, &:active{
+            color: @brand-primary !important;
+        }
     }
     .tags{
         a{
-            color: @gray-l;
             border-color: @gray-l;
             &:hover, &:active{
-                color: @brand-primary;
                 border-color: @brand-primary;
             }
         }
@@ -47,10 +51,6 @@
         }
         .list-inline>li{
             padding-left: 0px;
-            a{
-            }
         }
     }
 }
-
-// Friends

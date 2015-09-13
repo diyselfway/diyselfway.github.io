@@ -20,6 +20,8 @@ permalink: pretty
 paginate: 20
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
+anchorjs: true      # if you want to customize anchor. check out line:129 of `post.html`
+
 # Markdown settings
 # redcarpet can auto highlight code, but the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
@@ -41,8 +43,9 @@ useGoogleAnalysis: false
 
 
 # Sidebar settings
-# Use Sidebar
 sidebar: true
+sidebar-feature-tags: true
+sidebar-about-description: "一个不务正业的家伙，现在在自学Android开发。"
 sidebar-avatar: /img/avatar-julian.jpg     # use absolute URL.
 
 # Friends
