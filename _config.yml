@@ -45,7 +45,7 @@ useGoogleAnalysis: false
 # Sidebar settings
 sidebar: true
 sidebar-feature-tags: true
-sidebar-about-description: "一个不务正业的家伙，现在在自学Android开发。"
+sidebar-about-description: "一个正在无畏地向Android开发前进的家伙"
 sidebar-avatar: /img/avatar-julian.jpg     # use absolute URL.
 
 # Friends
