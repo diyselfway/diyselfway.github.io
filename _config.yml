@@ -27,6 +27,7 @@ anchorjs: true      # if you want to customize anchor. check out line:129 of `po
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 # use Github Flavored Markdown !important
 markdown: kramdown
+mathjax: true
 kramdown:
   input: GFM 
 
