@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Android修炼手册 · 基础篇之一"
+title:      "Android修炼手册·基础篇之一"
 subtitle:   "Activity的生命周期"
 date:       2016-04-18 00:00:00
 author:     "Julian"
