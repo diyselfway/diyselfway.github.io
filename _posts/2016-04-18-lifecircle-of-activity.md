@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Android修炼书册 · 基础篇之一"
+title:      "Android修炼手册 · 基础篇之一"
 subtitle:   "Activity的生命周期"
 date:       2016-04-18 00:00:00
 author:     "Julian"
@@ -18,7 +18,7 @@ tags:
 ![activity的生命周期图解](http://7xlo4n.com1.z0.glb.clouddn.com/Activity_lifecircle.jpg)
 
 
-## 实例详解
+# 实例详解
 下面通过一个简单的Demo来详细探究一下Activity的生命周期，测试代码如下：
 
 ```java
@@ -76,7 +76,8 @@ public class TestActivity extends Activity {
     }
 }
 ```
-### 应用启动
+
+## 应用启动
 运行上述代码，app 启动，在 Android Studio 的 logcat 中我们会看到如下信息：
 
 ```
@@ -87,7 +88,7 @@ I/TestActivity: onResume() called
 
 可以看到在应用启动并完成 TestActivity 实例创建后有三个方法 onCreate() 、onStart() 和 onResume() 依次被调用了。
 
-### 点击 Home 键
+## 点击 Home 键
 下面我们点击手机 Home 键，从 logcat 中可以看到如下信息：
 
 ```
@@ -107,7 +108,7 @@ I/TestActivity: onResume() called
 
 可以看到当我们再次回到应用时 onRestart() 、onStart() 和 onResume() 方法会被依次调用。
 
-### 点击 Back 键
+## 点击 Back 键
 最后我们点击 Back 键退出应用，从 logcat 中会看到如下信息：
 
 ```
