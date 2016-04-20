@@ -2,7 +2,7 @@
 layout:     post
 title:      "Activity的生命周期实例解析"
 subtitle:   "Android修炼手册·基础篇之一"
-date:       2016-04-18 00:00:00
+date:       2015-06-29 00:00:00
 author:     "Julian"
 header-img: "img/about-bg.jpg"
 tags:

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Hello Blog"
 subtitle:   "To be or not to be ?"
-date:       2015-09-11 00:00:00
+date:       2015-06-11 00:00:00
 author:     "Julian"
 header-img: "img/post-bg-hello.jpg"
 tags:
