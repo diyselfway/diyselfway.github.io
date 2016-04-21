@@ -9,13 +9,11 @@ published: true
 tags: 工具 Java
 ---
 
-* toc
-{:toc}
-
 ### 下载
 
 eclipse 官网下载：[https://eclipse.org/downloads/](https://eclipse.org/downloads/)
-Java SDK 下载：[官网下载](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+Java SDK 下载：[http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 ### 配置环境
 
@@ -24,15 +22,18 @@ Java SDK 下载：[官网下载](http://www.oracle.com/technetwork/java/javase/d
 新建系统变量 JAVA_HOME 和 CLASSPATH ，分别配置如下：
 
 >变量名：JAVA_HOME 
+
 >变量值：D:\Java\jdk1.8.0_51
 
 >变量名：CLASSPATH 
+
 >变量值：;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
 
 继续添加Path路径
 选择“系统变量”中变量名为“Path”的环境变量，双击该变量，把JDK安装路径中bin目录的绝对路径，添加到Path变量的值中，并使用半角的分号和已有的路径进行分隔。如下配置：
 
 >变量名：Path 
+
 >变量值：%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
 
 ### 安装eclipse
